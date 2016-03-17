@@ -1,0 +1,680 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02F68837B372D6D5DA283E4F /* ofxLabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 250E0525B36466F75176229F /* ofxLabel.cpp */; };
+		030875821D5E0030258BDBE4 /* usb_libusb10.c in Sources */ = {isa = PBXBuildFile; fileRef = 6B3093F1F8B06AF667305110 /* usb_libusb10.c */; };
+		0438AE7A641089B07312A7E1 /* ofxToggle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EA7E376431C737FF017D0DE4 /* ofxToggle.cpp */; };
+		170A18377F34C0AE0AC4F42E /* ofxButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A2E3DBA44B092EFFA4FB975C /* ofxButton.cpp */; };
+		288A94DD0C4AF43CF2D35EDE /* ofxBaseGui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 12CE3EAA99BDD5D85CBDAE71 /* ofxBaseGui.cpp */; };
+		2A5549DDB20CD93C679FDB79 /* registration.c in Sources */ = {isa = PBXBuildFile; fileRef = 805240FFB7B78146793A1C66 /* registration.c */; };
+		2EB12D54AF54345A819C88A7 /* flags.c in Sources */ = {isa = PBXBuildFile; fileRef = AB40D125076D1486C159D91B /* flags.c */; };
+		3F163E1709796632015BB50E /* audio.c in Sources */ = {isa = PBXBuildFile; fileRef = B66352ED8367E1BE5F1046CB /* audio.c */; };
+		4FBE97A25009D1A9B3BD518A /* ofxKinect.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1656156BFA0865E54B893D39 /* ofxKinect.cpp */; };
+		59ED024DF17981F7991C13C7 /* ofxGuiGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9DB3FEC44D479A9911356248 /* ofxGuiGroup.cpp */; };
+		755D7BE6997560927924512F /* ofxSliderGroup.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 77DEE4302E68B3A188E8CAF7 /* ofxSliderGroup.cpp */; };
+		90EF85199BEC658DB19FA39B /* loader.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A6E6EE5217DEF58B0059F69 /* loader.c */; };
+		95CC80CACD593E53563C2FC2 /* keep_alive.c in Sources */ = {isa = PBXBuildFile; fileRef = 0B0D0D102FB63F70BDDAC2FA /* keep_alive.c */; };
+		A785FC1558FF9455C6ED4B98 /* ofxSlider.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 41F3586354D0CB1CE64932FB /* ofxSlider.cpp */; };
+		ADAD5AA28770A1237C37ADE6 /* ofxPanel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3AC2D90A70A4A1BDEC7CCEB2 /* ofxPanel.cpp */; };
+		B279C9D7EACE7B08EFD93896 /* tilt.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B1E203AAF407538D66DCD2D /* tilt.c */; };
+		BDBB57787AE3EB1FA0666B57 /* core.c in Sources */ = {isa = PBXBuildFile; fileRef = 3E761EED5FE019D7E444EB37 /* core.c */; };
+		E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4328148138ABC890047C5CB /* openFrameworksDebug.a */; };
+		E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1D0A3A1BDC003C02F2 /* main.cpp */; };
+		E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */; };
+		ECA6F8E01C90FB2600C46D44 /* spirale.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ECA6F8DE1C90FB2600C46D44 /* spirale.cpp */; };
+		EF81F993CE4ABFAE8D5D3B36 /* cameras.c in Sources */ = {isa = PBXBuildFile; fileRef = 9546C02CA7BBAD94279C9A79 /* cameras.c */; };
+		F207F78F2F7E91D31A7106B7 /* ofxKinectExtras.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 07EECAAB2F8C043AE4C07C3A /* ofxKinectExtras.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4328147138ABC890047C5CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4B27C1510CBEB8E00536013;
+			remoteInfo = openFrameworks;
+		};
+		E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E4B27C1410CBEB8E00536013;
+			remoteInfo = openFrameworks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E4C2427710CC5ABF004149E2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		01DFD2C154FC08D01435A0E1 /* ofxBaseGui.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxBaseGui.h; path = ../../../../../../Applications/openframeworks/addons/ofxGui/src/ofxBaseGui.h; sourceTree = SOURCE_ROOT; };
+		07EECAAB2F8C043AE4C07C3A /* ofxKinectExtras.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxKinectExtras.cpp; path = ../../../../../../Applications/openframeworks/addons/ofxKinect/src/extra/ofxKinectExtras.cpp; sourceTree = SOURCE_ROOT; };
+		0B0D0D102FB63F70BDDAC2FA /* keep_alive.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = keep_alive.c; path = ../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libfreenect/src/keep_alive.c; sourceTree = SOURCE_ROOT; };
+		12CE3EAA99BDD5D85CBDAE71 /* ofxBaseGui.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxBaseGui.cpp; path = ../../../../../../Applications/openframeworks/addons/ofxGui/src/ofxBaseGui.cpp; sourceTree = SOURCE_ROOT; };
+		1656156BFA0865E54B893D39 /* ofxKinect.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxKinect.cpp; path = ../../../../../../Applications/openframeworks/addons/ofxKinect/src/ofxKinect.cpp; sourceTree = SOURCE_ROOT; };
+		1C2A5F34FE55A0759FDA5A56 /* ofxSlider.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxSlider.h; path = ../../../../../../Applications/openframeworks/addons/ofxGui/src/ofxSlider.h; sourceTree = SOURCE_ROOT; };
+		229E91268006296171371063 /* usb_libusb10.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = usb_libusb10.h; path = ../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libfreenect/src/usb_libusb10.h; sourceTree = SOURCE_ROOT; };
+		250E0525B36466F75176229F /* ofxLabel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxLabel.cpp; path = ../../../../../../Applications/openframeworks/addons/ofxGui/src/ofxLabel.cpp; sourceTree = SOURCE_ROOT; };
+		2674445F48C29AD513F1691C /* ofxToggle.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxToggle.h; path = ../../../../../../Applications/openframeworks/addons/ofxGui/src/ofxToggle.h; sourceTree = SOURCE_ROOT; };
+		2AED9F11F632381D84208465 /* keep_alive.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = keep_alive.h; path = ../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libfreenect/src/keep_alive.h; sourceTree = SOURCE_ROOT; };
+		2D37E5C73407A3848F6B07FD /* registration.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = registration.h; path = ../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libfreenect/src/registration.h; sourceTree = SOURCE_ROOT; };
+		314C0DEFBB0B32FCBEF0627E /* ofxButton.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxButton.h; path = ../../../../../../Applications/openframeworks/addons/ofxGui/src/ofxButton.h; sourceTree = SOURCE_ROOT; };
+		32921CD94A1AA81FE7D6C2D6 /* ofxKinectExtras.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxKinectExtras.h; path = ../../../../../../Applications/openframeworks/addons/ofxKinect/src/extra/ofxKinectExtras.h; sourceTree = SOURCE_ROOT; };
+		366130CACD474E6155A17B08 /* ofxPanel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxPanel.h; path = ../../../../../../Applications/openframeworks/addons/ofxGui/src/ofxPanel.h; sourceTree = SOURCE_ROOT; };
+		3AC2D90A70A4A1BDEC7CCEB2 /* ofxPanel.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxPanel.cpp; path = ../../../../../../Applications/openframeworks/addons/ofxGui/src/ofxPanel.cpp; sourceTree = SOURCE_ROOT; };
+		3E761EED5FE019D7E444EB37 /* core.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = core.c; path = ../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libfreenect/src/core.c; sourceTree = SOURCE_ROOT; };
+		3EE5C1519F19C1C8099A3EF3 /* freenect_internal.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = freenect_internal.h; path = ../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libfreenect/src/freenect_internal.h; sourceTree = SOURCE_ROOT; };
+		41F3586354D0CB1CE64932FB /* ofxSlider.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxSlider.cpp; path = ../../../../../../Applications/openframeworks/addons/ofxGui/src/ofxSlider.cpp; sourceTree = SOURCE_ROOT; };
+		4A6E6EE5217DEF58B0059F69 /* loader.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = loader.c; path = ../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libfreenect/src/loader.c; sourceTree = SOURCE_ROOT; };
+		4AB3FF80613A9DFA49E6EBA9 /* ofxKinect.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxKinect.h; path = ../../../../../../Applications/openframeworks/addons/ofxKinect/src/ofxKinect.h; sourceTree = SOURCE_ROOT; };
+		6B3093F1F8B06AF667305110 /* usb_libusb10.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = usb_libusb10.c; path = ../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libfreenect/src/usb_libusb10.c; sourceTree = SOURCE_ROOT; };
+		77DEE4302E68B3A188E8CAF7 /* ofxSliderGroup.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxSliderGroup.cpp; path = ../../../../../../Applications/openframeworks/addons/ofxGui/src/ofxSliderGroup.cpp; sourceTree = SOURCE_ROOT; };
+		805240FFB7B78146793A1C66 /* registration.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = registration.c; path = ../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libfreenect/src/registration.c; sourceTree = SOURCE_ROOT; };
+		830896F05B595A8BF4C51E36 /* ofxGui.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxGui.h; path = ../../../../../../Applications/openframeworks/addons/ofxGui/src/ofxGui.h; sourceTree = SOURCE_ROOT; };
+		92B7320E2B3793B3D69C7B28 /* libfreenect_registration.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = libfreenect_registration.h; path = ../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libfreenect/include/libfreenect_registration.h; sourceTree = SOURCE_ROOT; };
+		9546C02CA7BBAD94279C9A79 /* cameras.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = cameras.c; path = ../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libfreenect/src/cameras.c; sourceTree = SOURCE_ROOT; };
+		9B1E203AAF407538D66DCD2D /* tilt.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = tilt.c; path = ../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libfreenect/src/tilt.c; sourceTree = SOURCE_ROOT; };
+		9DB3FEC44D479A9911356248 /* ofxGuiGroup.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxGuiGroup.cpp; path = ../../../../../../Applications/openframeworks/addons/ofxGui/src/ofxGuiGroup.cpp; sourceTree = SOURCE_ROOT; };
+		A2E3DBA44B092EFFA4FB975C /* ofxButton.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxButton.cpp; path = ../../../../../../Applications/openframeworks/addons/ofxGui/src/ofxButton.cpp; sourceTree = SOURCE_ROOT; };
+		A2E57EA1530E09191689D570 /* ofxSliderGroup.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxSliderGroup.h; path = ../../../../../../Applications/openframeworks/addons/ofxGui/src/ofxSliderGroup.h; sourceTree = SOURCE_ROOT; };
+		A4F551508BF13BFFD184DABA /* loader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = loader.h; path = ../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libfreenect/src/loader.h; sourceTree = SOURCE_ROOT; };
+		A8A29A935E0D24B99F37DA46 /* cameras.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = cameras.h; path = ../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libfreenect/src/cameras.h; sourceTree = SOURCE_ROOT; };
+		AB40D125076D1486C159D91B /* flags.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = flags.c; path = ../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libfreenect/src/flags.c; sourceTree = SOURCE_ROOT; };
+		B5AFC0FF91CA9AA7651540F6 /* libfreenect.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = libfreenect.h; path = ../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libfreenect/include/libfreenect.h; sourceTree = SOURCE_ROOT; };
+		B66352ED8367E1BE5F1046CB /* audio.c */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.c; fileEncoding = 30; name = audio.c; path = ../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libfreenect/src/audio.c; sourceTree = SOURCE_ROOT; };
+		B8E01826003A89E2B045C8DE /* ofxLabel.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxLabel.h; path = ../../../../../../Applications/openframeworks/addons/ofxGui/src/ofxLabel.h; sourceTree = SOURCE_ROOT; };
+		C9A2DA519F97DEA5D666F1B3 /* libfreenect_audio.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = libfreenect_audio.h; path = ../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libfreenect/include/libfreenect_audio.h; sourceTree = SOURCE_ROOT; };
+		D2F73F26B4F60148076B4FE5 /* flags.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = flags.h; path = ../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libfreenect/src/flags.h; sourceTree = SOURCE_ROOT; };
+		D38C23D9C0B86B034490A11D /* libusb.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = libusb.h; path = "../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libusb-1.0/include/libusb-1.0/libusb.h"; sourceTree = SOURCE_ROOT; };
+		D9CD6D8A71AF84097282EAC5 /* ofxBase3DVideo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxBase3DVideo.h; path = ../../../../../../Applications/openframeworks/addons/ofxKinect/src/ofxBase3DVideo.h; sourceTree = SOURCE_ROOT; };
+		E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = openFrameworksLib.xcodeproj; path = ../../../../../../Applications/openframeworks/libs/openFrameworksCompiled/project/osx/openFrameworksLib.xcodeproj; sourceTree = SOURCE_ROOT; };
+		E4B69B5B0A3A1756003C02F2 /* Attempt@recursionDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Attempt@recursionDebug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B69E1D0A3A1BDC003C02F2 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofApp.cpp; path = src/ofApp.cpp; sourceTree = SOURCE_ROOT; };
+		E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ofApp.h; path = src/ofApp.h; sourceTree = SOURCE_ROOT; };
+		E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.xml; path = "openFrameworks-Info.plist"; sourceTree = "<group>"; };
+		E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = CoreOF.xcconfig; path = ../../../../../../Applications/openframeworks/libs/openFrameworksCompiled/project/osx/CoreOF.xcconfig; sourceTree = SOURCE_ROOT; };
+		E4EB6923138AFD0F00A09F29 /* Project.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
+		EA7E376431C737FF017D0DE4 /* ofxToggle.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 30; name = ofxToggle.cpp; path = ../../../../../../Applications/openframeworks/addons/ofxGui/src/ofxToggle.cpp; sourceTree = SOURCE_ROOT; };
+		ECA6F8DE1C90FB2600C46D44 /* spirale.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = spirale.cpp; sourceTree = "<group>"; };
+		ECA6F8DF1C90FB2600C46D44 /* spirale.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = spirale.hpp; sourceTree = "<group>"; };
+		EF6F50DACE63097B924367B9 /* ofxGuiGroup.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 30; name = ofxGuiGroup.h; path = ../../../../../../Applications/openframeworks/addons/ofxGui/src/ofxGuiGroup.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4B69B590A3A1756003C02F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4328149138ABC9F0047C5CB /* openFrameworksDebug.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AE6862ED862CA18468E0CCD /* include */ = {
+			isa = PBXGroup;
+			children = (
+				2C171637C399A50881F147E9 /* libusb-1.0 */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		2C171637C399A50881F147E9 /* libusb-1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				D38C23D9C0B86B034490A11D /* libusb.h */,
+			);
+			name = "libusb-1.0";
+			sourceTree = "<group>";
+		};
+		32687044708CDA9EDA265387 /* libfreenect */ = {
+			isa = PBXGroup;
+			children = (
+				6DFA2B327764FCDA2A8D882F /* include */,
+				ED6E9BDB447DB965EE6F1FA6 /* src */,
+			);
+			name = libfreenect;
+			sourceTree = "<group>";
+		};
+		480A780D8D0308AE4A368801 /* ofxGui */ = {
+			isa = PBXGroup;
+			children = (
+				A763ED608B35AE3310251DEE /* src */,
+			);
+			name = ofxGui;
+			sourceTree = "<group>";
+		};
+		65726280742CD54BF368BDB8 /* libusb-1.0 */ = {
+			isa = PBXGroup;
+			children = (
+				1AE6862ED862CA18468E0CCD /* include */,
+			);
+			name = "libusb-1.0";
+			sourceTree = "<group>";
+		};
+		6948EE371B920CB800B5AC1A /* local_addons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = local_addons;
+			sourceTree = "<group>";
+		};
+		6DFA2B327764FCDA2A8D882F /* include */ = {
+			isa = PBXGroup;
+			children = (
+				B5AFC0FF91CA9AA7651540F6 /* libfreenect.h */,
+				C9A2DA519F97DEA5D666F1B3 /* libfreenect_audio.h */,
+				92B7320E2B3793B3D69C7B28 /* libfreenect_registration.h */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		6E7134DE536888BE82D56327 /* extra */ = {
+			isa = PBXGroup;
+			children = (
+				07EECAAB2F8C043AE4C07C3A /* ofxKinectExtras.cpp */,
+				32921CD94A1AA81FE7D6C2D6 /* ofxKinectExtras.h */,
+			);
+			name = extra;
+			sourceTree = "<group>";
+		};
+		9683228C705CA3FF4F2EA945 /* ofxKinect */ = {
+			isa = PBXGroup;
+			children = (
+				F3D2DB7201EFA9F7958F421E /* src */,
+				F4101FC676C210E28DCB3220 /* libs */,
+			);
+			name = ofxKinect;
+			sourceTree = "<group>";
+		};
+		A763ED608B35AE3310251DEE /* src */ = {
+			isa = PBXGroup;
+			children = (
+				12CE3EAA99BDD5D85CBDAE71 /* ofxBaseGui.cpp */,
+				01DFD2C154FC08D01435A0E1 /* ofxBaseGui.h */,
+				A2E3DBA44B092EFFA4FB975C /* ofxButton.cpp */,
+				314C0DEFBB0B32FCBEF0627E /* ofxButton.h */,
+				830896F05B595A8BF4C51E36 /* ofxGui.h */,
+				9DB3FEC44D479A9911356248 /* ofxGuiGroup.cpp */,
+				EF6F50DACE63097B924367B9 /* ofxGuiGroup.h */,
+				250E0525B36466F75176229F /* ofxLabel.cpp */,
+				B8E01826003A89E2B045C8DE /* ofxLabel.h */,
+				3AC2D90A70A4A1BDEC7CCEB2 /* ofxPanel.cpp */,
+				366130CACD474E6155A17B08 /* ofxPanel.h */,
+				41F3586354D0CB1CE64932FB /* ofxSlider.cpp */,
+				1C2A5F34FE55A0759FDA5A56 /* ofxSlider.h */,
+				77DEE4302E68B3A188E8CAF7 /* ofxSliderGroup.cpp */,
+				A2E57EA1530E09191689D570 /* ofxSliderGroup.h */,
+				EA7E376431C737FF017D0DE4 /* ofxToggle.cpp */,
+				2674445F48C29AD513F1691C /* ofxToggle.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		BB4B014C10F69532006C3DED /* addons */ = {
+			isa = PBXGroup;
+			children = (
+				480A780D8D0308AE4A368801 /* ofxGui */,
+				9683228C705CA3FF4F2EA945 /* ofxKinect */,
+			);
+			name = addons;
+			sourceTree = "<group>";
+		};
+		E4328144138ABC890047C5CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4328148138ABC890047C5CB /* openFrameworksDebug.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4B69B4A0A3A1720003C02F2 = {
+			isa = PBXGroup;
+			children = (
+				E4B6FCAD0C3E899E008CF71C /* openFrameworks-Info.plist */,
+				E4EB6923138AFD0F00A09F29 /* Project.xcconfig */,
+				E4B69E1C0A3A1BDC003C02F2 /* src */,
+				E4EEC9E9138DF44700A80321 /* openFrameworks */,
+				BB4B014C10F69532006C3DED /* addons */,
+				6948EE371B920CB800B5AC1A /* local_addons */,
+				E4B69B5B0A3A1756003C02F2 /* Attempt@recursionDebug.app */,
+			);
+			sourceTree = "<group>";
+		};
+		E4B69E1C0A3A1BDC003C02F2 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				E4B69E1D0A3A1BDC003C02F2 /* main.cpp */,
+				E4B69E1E0A3A1BDC003C02F2 /* ofApp.cpp */,
+				E4B69E1F0A3A1BDC003C02F2 /* ofApp.h */,
+				ECA6F8DE1C90FB2600C46D44 /* spirale.cpp */,
+				ECA6F8DF1C90FB2600C46D44 /* spirale.hpp */,
+			);
+			path = src;
+			sourceTree = SOURCE_ROOT;
+		};
+		E4EEC9E9138DF44700A80321 /* openFrameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4EB691F138AFCF100A09F29 /* CoreOF.xcconfig */,
+				E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */,
+			);
+			name = openFrameworks;
+			sourceTree = "<group>";
+		};
+		ED6E9BDB447DB965EE6F1FA6 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				B66352ED8367E1BE5F1046CB /* audio.c */,
+				9546C02CA7BBAD94279C9A79 /* cameras.c */,
+				A8A29A935E0D24B99F37DA46 /* cameras.h */,
+				3E761EED5FE019D7E444EB37 /* core.c */,
+				AB40D125076D1486C159D91B /* flags.c */,
+				D2F73F26B4F60148076B4FE5 /* flags.h */,
+				3EE5C1519F19C1C8099A3EF3 /* freenect_internal.h */,
+				0B0D0D102FB63F70BDDAC2FA /* keep_alive.c */,
+				2AED9F11F632381D84208465 /* keep_alive.h */,
+				4A6E6EE5217DEF58B0059F69 /* loader.c */,
+				A4F551508BF13BFFD184DABA /* loader.h */,
+				805240FFB7B78146793A1C66 /* registration.c */,
+				2D37E5C73407A3848F6B07FD /* registration.h */,
+				9B1E203AAF407538D66DCD2D /* tilt.c */,
+				6B3093F1F8B06AF667305110 /* usb_libusb10.c */,
+				229E91268006296171371063 /* usb_libusb10.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		F3D2DB7201EFA9F7958F421E /* src */ = {
+			isa = PBXGroup;
+			children = (
+				6E7134DE536888BE82D56327 /* extra */,
+				D9CD6D8A71AF84097282EAC5 /* ofxBase3DVideo.h */,
+				1656156BFA0865E54B893D39 /* ofxKinect.cpp */,
+				4AB3FF80613A9DFA49E6EBA9 /* ofxKinect.h */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		F4101FC676C210E28DCB3220 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				32687044708CDA9EDA265387 /* libfreenect */,
+				65726280742CD54BF368BDB8 /* libusb-1.0 */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4B69B5A0A3A1756003C02F2 /* Attempt@recursion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "Attempt@recursion" */;
+			buildPhases = (
+				E4B69B580A3A1756003C02F2 /* Sources */,
+				E4B69B590A3A1756003C02F2 /* Frameworks */,
+				E4B6FFFD0C3F9AB9008CF71C /* ShellScript */,
+				E4C2427710CC5ABF004149E2 /* CopyFiles */,
+				8466F1851C04CA0E00918B1C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4EEB9AC138B136A00A80321 /* PBXTargetDependency */,
+			);
+			name = "Attempt@recursion";
+			productName = myOFApp;
+			productReference = E4B69B5B0A3A1756003C02F2 /* Attempt@recursionDebug.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4B69B4C0A3A1720003C02F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+			};
+			buildConfigurationList = E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "Attempt@recursion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = E4B69B4A0A3A1720003C02F2;
+			productRefGroup = E4B69B4A0A3A1720003C02F2;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E4328144138ABC890047C5CB /* Products */;
+					ProjectRef = E4328143138ABC890047C5CB /* openFrameworksLib.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				E4B69B5A0A3A1756003C02F2 /* Attempt@recursion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E4328148138ABC890047C5CB /* openFrameworksDebug.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = openFrameworksDebug.a;
+			remoteRef = E4328147138ABC890047C5CB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8466F1851C04CA0E00918B1C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# ---- Code Sign App Package ----\n \n# WARNING: You may have to run Clean in Xcode after changing CODE_SIGN_IDENTITY!\n\n# Verify that $CODE_SIGN_IDENTITY is set\nif [ -z \"${CODE_SIGN_IDENTITY}\" ] ; then\necho \"CODE_SIGN_IDENTITY needs to be set for framework code-signing\"\nexit 0\nfi\n\nif [ -z \"${CODE_SIGN_ENTITLEMENTS}\" ] ; then\necho \"CODE_SIGN_ENTITLEMENTS needs to be set for framework code-signing!\"\n\nif [ \"${CONFIGURATION}\" = \"Release\" ] ; then\nexit 1\nelse\n# Code-signing is optional for non-release builds.\nexit 0\nfi\nfi\n\nITEMS=\"\"\n\nFRAMEWORKS_DIR=\"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}\"\necho \"$FRAMEWORKS_DIR\"\nif [ -d \"$FRAMEWORKS_DIR\" ] ; then\nFRAMEWORKS=$(find \"${FRAMEWORKS_DIR}\" -depth -type d -name \"*.framework\" -or -name \"*.dylib\" -or -name \"*.bundle\" | sed -e \"s/\\(.*framework\\)/\\1\\/Versions\\/A\\//\")\nRESULT=$?\nif [[ $RESULT != 0 ]] ; then\nexit 1\nfi\n\nITEMS=\"${FRAMEWORKS}\"\nfi\n\nLOGINITEMS_DIR=\"${TARGET_BUILD_DIR}/${CONTENTS_FOLDER_PATH}/Library/LoginItems/\"\nif [ -d \"$LOGINITEMS_DIR\" ] ; then\nLOGINITEMS=$(find \"${LOGINITEMS_DIR}\" -depth -type d -name \"*.app\")\nRESULT=$?\nif [[ $RESULT != 0 ]] ; then\nexit 1\nfi\n\nITEMS=\"${ITEMS}\"$'\\n'\"${LOGINITEMS}\"\nfi\n\n# Prefer the expanded name, if available.\nCODE_SIGN_IDENTITY_FOR_ITEMS=\"${EXPANDED_CODE_SIGN_IDENTITY_NAME}\"\nif [ \"${CODE_SIGN_IDENTITY_FOR_ITEMS}\" = \"\" ] ; then\n# Fall back to old behavior.\nCODE_SIGN_IDENTITY_FOR_ITEMS=\"${CODE_SIGN_IDENTITY}\"\nfi\n\necho \"Identity:\"\necho \"${CODE_SIGN_IDENTITY_FOR_ITEMS}\"\n\necho \"Entitlements:\"\necho \"${CODE_SIGN_ENTITLEMENTS}\"\n\necho \"Found:\"\necho \"${ITEMS}\"\n\n# Change the Internal Field Separator (IFS) so that spaces in paths will not cause problems below.\nSAVED_IFS=$IFS\nIFS=$(echo -en \"\\n\\b\")\n\n# Loop through all items.\nfor ITEM in $ITEMS;\ndo\necho \"Signing '${ITEM}'\"\ncodesign --force --verbose --sign \"${CODE_SIGN_IDENTITY_FOR_ITEMS}\" --entitlements \"${CODE_SIGN_ENTITLEMENTS}\" \"${ITEM}\"\nRESULT=$?\nif [[ $RESULT != 0 ]] ; then\necho \"Failed to sign '${ITEM}'.\"\nIFS=$SAVED_IFS\nexit 1\nfi\ndone\n\n# Restore $IFS.\nIFS=$SAVED_IFS\n";
+		};
+		E4B6FFFD0C3F9AB9008CF71C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "mkdir -p \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy default icon file into App/Resources\nrsync -aved \"$ICON_FILE\" \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Resources/\"\n# Copy bin/data into App/Resources\nrsync -avz --exclude='.DS_Store' \"${SRCROOT}/bin/data/\" \"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/data/\"\n# Copy libfmod and change install directory for fmod to run\nrsync -aved ../../../../../../Applications/openframeworks/libs/fmodex/lib/osx/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\";\ninstall_name_tool -change @executable_path/libfmodex.dylib @executable_path/../Frameworks/libfmodex.dylib \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/MacOS/$PRODUCT_NAME\";\n# Copy GLUT framework (must remove for AppStore submissions)\nrsync -aved ../../../../../../Applications/openframeworks/libs/glut/lib/osx/GLUT.framework \"$TARGET_BUILD_DIR/$PRODUCT_NAME.app/Contents/Frameworks/\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4B69B580A3A1756003C02F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
+				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
+				288A94DD0C4AF43CF2D35EDE /* ofxBaseGui.cpp in Sources */,
+				170A18377F34C0AE0AC4F42E /* ofxButton.cpp in Sources */,
+				59ED024DF17981F7991C13C7 /* ofxGuiGroup.cpp in Sources */,
+				02F68837B372D6D5DA283E4F /* ofxLabel.cpp in Sources */,
+				ADAD5AA28770A1237C37ADE6 /* ofxPanel.cpp in Sources */,
+				A785FC1558FF9455C6ED4B98 /* ofxSlider.cpp in Sources */,
+				ECA6F8E01C90FB2600C46D44 /* spirale.cpp in Sources */,
+				755D7BE6997560927924512F /* ofxSliderGroup.cpp in Sources */,
+				0438AE7A641089B07312A7E1 /* ofxToggle.cpp in Sources */,
+				F207F78F2F7E91D31A7106B7 /* ofxKinectExtras.cpp in Sources */,
+				4FBE97A25009D1A9B3BD518A /* ofxKinect.cpp in Sources */,
+				3F163E1709796632015BB50E /* audio.c in Sources */,
+				EF81F993CE4ABFAE8D5D3B36 /* cameras.c in Sources */,
+				BDBB57787AE3EB1FA0666B57 /* core.c in Sources */,
+				2EB12D54AF54345A819C88A7 /* flags.c in Sources */,
+				95CC80CACD593E53563C2FC2 /* keep_alive.c in Sources */,
+				90EF85199BEC658DB19FA39B /* loader.c in Sources */,
+				2A5549DDB20CD93C679FDB79 /* registration.c in Sources */,
+				B279C9D7EACE7B08EFD93896 /* tilt.c in Sources */,
+				030875821D5E0030258BDBE4 /* usb_libusb10.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4EEB9AC138B136A00A80321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = openFrameworks;
+			targetProxy = E4EEB9AB138B136A00A80321 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E4B69B4E0A3A1720003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					../../../../../../Applications/openframeworks/addons/ofxGui/src,
+					../../../../../../Applications/openframeworks/addons/ofxKinect/libs,
+					../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libfreenect,
+					../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libfreenect/include,
+					../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libfreenect/platform,
+					../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libfreenect/src,
+					"../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libusb-1.0",
+					"../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libusb-1.0/include",
+					"../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libusb-1.0/include/libusb-1.0",
+					"../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libusb-1.0/lib",
+					"../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libusb-1.0/lib/osx",
+					"../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libusb-win32",
+					../../../../../../Applications/openframeworks/addons/ofxKinect/src,
+					../../../../../../Applications/openframeworks/addons/ofxKinect/src/extra,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+				);
+				OTHER_LDFLAGS = (
+					"$(OF_CORE_FRAMEWORKS)",
+					"$(OF_CORE_LIBS)",
+					"../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libusb-1.0/lib/osx/usb-1.0.a",
+				);
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E4B69B4F0A3A1720003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(SRCROOT)/bin/";
+				COPY_PHASE_STRIP = YES;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_AUTO_VECTORIZATION = YES;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_ENABLE_SUPPLEMENTAL_SSE3_INSTRUCTIONS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_UNROLL_LOOPS = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = YES;
+				GCC_WARN_ABOUT_INVALID_OFFSETOF_MACRO = NO;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = NO;
+				GCC_WARN_UNINITIALIZED_AUTOS = NO;
+				GCC_WARN_UNUSED_VALUE = NO;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					../../../../../../Applications/openframeworks/addons/ofxGui/src,
+					../../../../../../Applications/openframeworks/addons/ofxKinect/libs,
+					../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libfreenect,
+					../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libfreenect/include,
+					../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libfreenect/platform,
+					../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libfreenect/src,
+					"../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libusb-1.0",
+					"../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libusb-1.0/include",
+					"../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libusb-1.0/include/libusb-1.0",
+					"../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libusb-1.0/lib",
+					"../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libusb-1.0/lib/osx",
+					"../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libusb-win32",
+					../../../../../../Applications/openframeworks/addons/ofxKinect/src,
+					../../../../../../Applications/openframeworks/addons/ofxKinect/src/extra,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				OTHER_CPLUSPLUSFLAGS = (
+					"-D__MACOSX_CORE__",
+					"-mtune=native",
+				);
+				OTHER_LDFLAGS = (
+					"$(OF_CORE_FRAMEWORKS)",
+					"$(OF_CORE_LIBS)",
+					"../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libusb-1.0/lib/osx/usb-1.0.a",
+				);
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E4B69B600A3A1757003C02F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../../../../Applications/openframeworks/libs/glut/lib/osx\"";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					../../../../../../Applications/openframeworks/addons/ofxGui/src,
+					../../../../../../Applications/openframeworks/addons/ofxKinect/libs,
+					../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libfreenect,
+					../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libfreenect/include,
+					../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libfreenect/platform,
+					../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libfreenect/src,
+					"../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libusb-1.0",
+					"../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libusb-1.0/include",
+					"../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libusb-1.0/include/libusb-1.0",
+					"../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libusb-1.0/lib",
+					"../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libusb-1.0/lib/osx",
+					"../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libusb-win32",
+					../../../../../../Applications/openframeworks/addons/ofxKinect/src,
+					../../../../../../Applications/openframeworks/addons/ofxKinect/src/extra,
+				);
+				ICON = "$(ICON_NAME_DEBUG)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(OF_CORE_FRAMEWORKS)",
+					"$(OF_CORE_LIBS)",
+					"../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libusb-1.0/lib/osx/usb-1.0.a",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)Debug";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E4B69B610A3A1757003C02F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4EB6923138AFD0F00A09F29 /* Project.xcconfig */;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+				);
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../../../../../../Applications/openframeworks/libs/glut/lib/osx\"";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = NONE;
+				HEADER_SEARCH_PATHS = (
+					"$(OF_CORE_HEADERS)",
+					../../../../../../Applications/openframeworks/addons/ofxGui/src,
+					../../../../../../Applications/openframeworks/addons/ofxKinect/libs,
+					../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libfreenect,
+					../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libfreenect/include,
+					../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libfreenect/platform,
+					../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libfreenect/src,
+					"../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libusb-1.0",
+					"../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libusb-1.0/include",
+					"../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libusb-1.0/include/libusb-1.0",
+					"../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libusb-1.0/lib",
+					"../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libusb-1.0/lib/osx",
+					"../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libusb-win32",
+					../../../../../../Applications/openframeworks/addons/ofxKinect/src,
+					../../../../../../Applications/openframeworks/addons/ofxKinect/src/extra,
+				);
+				ICON = "$(ICON_NAME_RELEASE)";
+				ICON_FILE = "$(ICON_FILE_PATH)$(ICON)";
+				INFOPLIST_FILE = "openFrameworks-Info.plist";
+				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = (
+					"$(OF_CORE_FRAMEWORKS)",
+					"$(OF_CORE_LIBS)",
+					"../../../../../../Applications/openframeworks/addons/ofxKinect/libs/libusb-1.0/lib/osx/usb-1.0.a",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+				baseConfigurationReference = E4EB6923138AFD0F00A09F29;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4B69B4D0A3A1720003C02F2 /* Build configuration list for PBXProject "Attempt@recursion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B4E0A3A1720003C02F2 /* Debug */,
+				E4B69B4F0A3A1720003C02F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4B69B5F0A3A1757003C02F2 /* Build configuration list for PBXNativeTarget "Attempt@recursion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B69B600A3A1757003C02F2 /* Debug */,
+				E4B69B610A3A1757003C02F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4B69B4C0A3A1720003C02F2 /* Project object */;
+}
